@@ -1,3 +1,6 @@
+[![](https://poggit.pmmp.io/shield.state/Particles)](https://poggit.pmmp.io/p/Particles)
+[![](https://poggit.pmmp.io/shield.api/Particles)](https://poggit.pmmp.io/p/Particles)
+
 # 🎆 Particles v1.0.0
 
 **Sistema avanzado de partículas para PocketMine-MP API 5.0.0**
@@ -11,7 +14,7 @@
 ## ✨ Características
 
 - **🦶 5 Partículas de Pie** - Fuego, Agua, Corazones, Notas Musicales, Portal
-- **👤 5 Partículas de Cuerpo** - Encantamiento, Golpe Crítico, Humo, Lava, Hechizo  
+- **👤 5 Partículas de Cuerpo** - Encantamiento, Golpe Crítico, Humo, Lava, Hechizo
 - **👤 5 Partículas de Cabeza** - Felicidad, Ira, Vara del End, Alma, Nieve
 - **🎨 Menú Interactivo** - Sistema de formularios nativo de PocketMine (sin dependencias)
 - **💾 Guardado de Datos** - Preferencias de jugadores persistentes
@@ -31,7 +34,7 @@
 
 ## 🚀 Instalación
 
-1. Descarga el archivo `.phar` desde [Poggit](https://poggit.pmmp.io) o [Releases](../../releases)
+1. Descarga el archivo `.phar` desde [Poggit](https://poggit.pmmp.io/p/Particles) o [Releases](../../releases)
 2. Colócalo en la carpeta `plugins/` de tu servidor
 3. Reinicia el servidor
 4. ¡Listo! El archivo `config.yml` se generará automáticamente en `plugin_data/Particles/`
@@ -46,30 +49,28 @@
 
 ---
 
-## 📁 Estructura del Plugin
+## 📊 Tipo y Descripción
 
-
----
-
-## 📊 Tipo	Descripción	
-`FLAME`	Llamas	
-`SPLASH`	Salpicaduras de agua	
-`HEART`	Corazones	
-`NOTE`	Notas musicales (rojas)	
-`PORTAL`	Partículas de portal	
-`ENCHANTMENT_TABLE`	Letras de encantamiento	
-`CRIT`	Golpe crítico	
-`SMOKE`	Humo	
-`LAVA`	Lava	
-`SPELL_WITCH`	Hechizo de bruja (púrpura)	
-`VILLAGER_HAPPY`	Aldeano feliz	
-`VILLAGER_ANGRY`	Aldeano enojado	
-`END_ROD`	Vara del End (blanco)	
-`SNOWBALL_POOF`	Explosión de nieve	
-`TOTEM`	Tótem de inmortalidad	
-`DRAGON_BREATH`	Aliento de dragón (púrpura)	
-`NAUTILUS`	Nautilus/agua	
-`FLASH`	Flash/explosión	
+| Tipo | Descripción |
+|------|-------------|
+| `FLAME` | Llamas |
+| `SPLASH` | Salpicaduras de agua |
+| `HEART` | Corazones |
+| `NOTE` | Notas musicales (rojas) |
+| `PORTAL` | Partículas de portal |
+| `ENCHANTMENT_TABLE` | Letras de encantamiento |
+| `CRIT` | Golpe crítico |
+| `SMOKE` | Humo |
+| `LAVA` | Lava |
+| `SPELL_WITCH` | Hechizo de bruja (púrpura) |
+| `VILLAGER_HAPPY` | Aldeano feliz |
+| `VILLAGER_ANGRY` | Aldeano enojado |
+| `END_ROD` | Vara del End (blanco) |
+| `SNOWBALL_POOF` | Explosión de nieve |
+| `TOTEM` | Tótem de inmortalidad |
+| `DRAGON_BREATH` | Aliento de dragon (púrpura) |
+| `NAUTILUS` | Nautilus/agua |
+| `FLASH` | Flash/explosión |
 
 ---
 
@@ -87,28 +88,21 @@
 
 ---
 
-📝 Changelog
-v1.0.0 (2026-02-08)
- 
-✅ Lanzamiento inicial
- 
-✅ 15 partículas únicas en 3 categorías
- 
-✅ Sistema de menú con FormAPI nativo
- 
-✅ Guardado de preferencias de jugadores
- 
-✅ Categorías y partículas configurables
- 
-✅ Sistema de permisos
+## 📝 Changelog
+**v1.0.0 (2026-02-08)**
+
+- ✅ Lanzamiento inicial
+- ✅ 15 partículas únicas en 3 categorías
+- ✅ Sistema de menú con FormAPI nativo
+- ✅ Guardado de preferencias de jugadores
+- ✅ Categorías y partículas configurables
+- ✅ Sistema de permisos
 
 ---
 
-🧑‍💻 Autor
-AssassinGhost
- 
-GitHub: @AssassinGhostYT
-
+## 🧑‍💻 Autor
+**AssassinGhost**
+GitHub: [@AssassinGhostYT](https://github.com/AssassinGhostYT)
 
 ---
 
