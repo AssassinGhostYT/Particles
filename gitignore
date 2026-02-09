@@ -1,0 +1,43 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Archivos de compilación
+*.phar
+build/
+dist/
+out/
+
+# Dependencias (si usas Composer)
+vendor/
+composer.lock
+
+# Archivos de prueba
+test/
+tests/
+phpunit.xml
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+*.cache
+
+# Configuración local (no subir al repo)
+config.yml.bak
+players.yml

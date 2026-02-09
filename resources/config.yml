@@ -1,0 +1,124 @@
+# Configuración de Partículas v1.0.0
+# Autor: AssassinGhost
+
+# ============= CATEGORÍAS ================
+# Puedes desactivar categorías completas (true/false)
+
+categorias:
+  feet:
+    enabled: true
+    nombre: "§ePartículas de Pie"
+    descripcion: "Partículas alrededor de tus pies"
+  body:
+    enabled: true
+    nombre: "§bPartículas de Cuerpo"
+    descripcion: "Partículas alrededor de tu cuerpo"
+  head:
+    enabled: true
+    nombre: "§dPartículas de Cabeza"
+    descripcion: "Partículas alrededor de tu cabeza"
+
+# ============ PARTÍCULAS DE PIE===========
+particles_feet:
+  flame_feet:
+    enabled: true
+    nombre: "§cFuego"
+    tipo: "FLAME"
+    cantidad: 3
+    altura: 0.1
+  water_feet:
+    enabled: true
+    nombre: "§3Agua"
+    tipo: "SPLASH"
+    cantidad: 5
+    altura: 0.1
+  heart_feet:
+    enabled: true
+    nombre: "§4Corazones"
+    tipo: "HEART"
+    cantidad: 2
+    altura: 0.2
+  note_feet:
+    enabled: true
+    nombre: "§5Notas Musicales"
+    tipo: "NOTE"
+    cantidad: 3
+    altura: 0.1
+  portal_feet:
+    enabled: true
+    nombre: "§5Portal"
+    tipo: "PORTAL"
+    cantidad: 4
+    altura: 0.5
+
+# ========= PARTÍCULAS DE CUERPO =========
+particles_body:
+  enchant_body:
+    enabled: true
+    nombre: "§dEncantamiento"
+    tipo: "ENCHANTMENT_TABLE"
+    cantidad: 5
+    radio: 0.8
+  crit_body:
+    enabled: true
+    nombre: "§7Golpe Crítico"
+    tipo: "CRIT"
+    cantidad: 4
+    radio: 0.6
+  smoke_body:
+    enabled: true
+    nombre: "§8Humo"
+    tipo: "SMOKE"
+    cantidad: 6
+    radio: 0.7
+  lava_body:
+    enabled: true
+    nombre: "§6Lava"
+    tipo: "LAVA"
+    cantidad: 3
+    radio: 0.5
+  spell_body:
+    enabled: true
+    nombre: "§5Hechizo"
+    tipo: "SPELL_WITCH"
+    cantidad: 4
+    radio: 0.6
+
+# ========= PARTÍCULAS DE CABEZA ==========
+particles_head:
+  happy_head:
+    enabled: true
+    nombre: "§aFelicidad"
+    tipo: "VILLAGER_HAPPY"
+    cantidad: 3
+    altura: 2.2
+  angry_head:
+    enabled: true
+    nombre: "§cIra"
+    tipo: "VILLAGER_ANGRY"
+    cantidad: 2
+    altura: 2.3
+  endrod_head:
+    enabled: true
+    nombre: "§fVara del End"
+    tipo: "END_ROD"
+    cantidad: 4
+    altura: 2.1
+  soul_head:
+    enabled: true
+    nombre: "§bAlma"
+    tipo: "SOUL_FIRE_FLAME"
+    cantidad: 3
+    altura: 2.2
+  snow_head:
+    enabled: true
+    nombre: "§fNieve"
+    tipo: "SNOWBALL_POOF"
+    cantidad: 5
+    altura: 2.0
+
+# ========= AJUSTES GENERALES ===========
+settings:
+  intervalo_actualizacion: 5 # Ticks entre cada spawn de partículas
+  max_particulas_por_jugador: 3 # Máximo de partículas activas simultáneamente
+  guardar_datos: true # Guardar preferencias de jugadores

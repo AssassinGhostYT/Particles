@@ -1,0 +1,15 @@
+name: Particles
+version: 1.0.0
+api: 5.0.0
+author: AssassinGhost
+main: AssassinGhost\Particles\Main
+description: Sistema avanzado de partículas con categorías
+
+
+permissions:
+  particles.command:
+    default: true
+    description: Permiso para usar /p
+  particles.admin:
+    default: op
+    description: Permiso para administrar partículas

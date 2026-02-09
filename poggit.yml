@@ -1,0 +1,19 @@
+
+---
+
+## `poggit.yml`
+
+```yaml
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/AssassinGhost/Particles
+
+branches:
+  - master
+  - main
+
+projects:
+  Particles:
+    path: ""
+    icon: icon.png
+    libs: []
+    lint:
+      phpstan: false
