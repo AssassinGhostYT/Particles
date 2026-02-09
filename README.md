@@ -106,3 +106,31 @@ v1.0.0 (2026-02-08)
 AssassinGhost
  
 GitHub: @AssassinGhostYT
+
+
+---
+
+## ⚙️ Configuración
+
+Edita `plugin_data/Particles/config.yml`:
+
+```yaml
+categorias:
+  feet:
+    enabled: true    # Activar/desactivar categoría completa
+  body:
+    enabled: true
+  head:
+    enabled: true
+
+particles_feet:
+  flame_feet:
+    enabled: true         # Activar/desactivar partícula individual
+    nombre: "§cFuego"    # Nombre en el menú
+    tipo: "FLAME"         # Tipo de partícula
+    cantidad: 3           # Cantidad de partículas a spawnear
+    altura: 0.1           # Altura desde el suelo
+
+settings:
+  intervalo_actualizacion: 5      # Ticks entre cada spawn (20 ticks = 1 segundo)
+  max_particulas_por_jugador: 3   # Máximo de partículas activas simultáneamente
