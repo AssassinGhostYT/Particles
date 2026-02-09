@@ -76,13 +76,13 @@
 ## 📸 Screenshots / Muestras
 
 <p align="center">
-  <img src="images/screenshot1.png" width="400" title="Muestra 1">
-  <img src="images/screenshot2.png" width="400" title="Muestra 2">
-  <img src="images/screenshot3.png" width="400" title="Muestra 3">
-  <img src="images/screenshot4.png" width="400" title="Muestra 4">
-  <img src="images/screenshot5.png" width="400" title="Muestra 5">
-  <img src="images/screenshot6.png" width="400" title="Muestra 6">
-  <img src="images/screenshot7.png" width="400" title="Muestra 7">
+  <img src="images/screenshot1.jpg" width="400" title="Muestra 1">
+  <img src="images/screenshot2.jpg" width="400" title="Muestra 2">
+  <img src="images/screenshot3.jpg" width="400" title="Muestra 3">
+  <img src="images/screenshot4.jpg" width="400" title="Muestra 4">
+  <img src="images/screenshot5.jpg" width="400" title="Muestra 5">
+  <img src="images/screenshot6.jpg" width="400" title="Muestra 6">
+  <img src="images/screenshot7.jpg" width="400" title="Muestra 7">
 </p>
 
 ---
