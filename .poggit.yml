@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/AssassinGhostYT/Particles
+build-by-default: true
+branches:
+- main
+projects:
+  Particles:
+    path: ""
+...
