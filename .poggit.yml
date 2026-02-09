@@ -5,4 +5,9 @@ branches:
 projects:
   Particles:
     path: ""
+    icon: icon.png
+    libs: []
+    lint:
+      phpstan: false
 ...
+ 
